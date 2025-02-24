@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+  <div class="main">
+    <div class="top">
+      <div id="display" class="numberText"></div>
+    </div>
+    <button id="7" onclick="numberSelect('7');" class="number">7</button>
+    <button id="8" onclick="numberSelect('8');" class="number">8</button>
+    <button id="9" onclick="numberSelect('9');" class="number">9</button>
+    <button id="*" onclick="numberSelect('*');" class="operator">*</button>
+    <button id="4" onclick="numberSelect('4');" class="number">4</button>
+    <button id="5" onclick="numberSelect('5');" class="number">5</button>
+    <button id="6" onclick="numberSelect('6');" class="number">6</button>
+    <button id="-" onclick="numberSelect('/');" class="operator">÷</button>
+    <button id="1" onclick="numberSelect('1');" class="number">1</button>
+    <button id="2" onclick="numberSelect('2');" class="number">2</button>
+    <button id="3" onclick="numberSelect('3');" class="number">3</button>
+    <button id="+" onclick="numberSelect('+');" class="operator">+</button>
+    <button id="." onclick="numberSelect('.');" class="number">.</button>
+    <button id="0" onclick="numberSelect('0');" class="number">0</button>
+    <button id="=" onclick="numberSelect('enter');">=</button>
+    <button id="-" onclick="numberSelect('-');" class="operator">-</button>
+    <button id="ac"onclick="ac();" class="spantwo">AC</button>
+    <button id="delete" onclick="backspace();" class="spantwo">←</button>
+  </div>
+
+</body>
+
+</html>
